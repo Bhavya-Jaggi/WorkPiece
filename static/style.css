@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head::before
+{
+    content: "";
+    position: absolute;
+    background: url('/static/img/bg1.jpg') no-repeat center center/cover;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.6;
+}
+#mac{
+    width: 180px;
+    height: 151px;
+}
+
+
+/* Navbar */
+
+#logo {
+    width: 161px;
+    height: 48px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: black;
+    height: 48px;
+    width: 100vw;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    width: 52vw;
+    margin-top: 12px;
+
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.7s ease-in-out;
+    
+}
+
+.navbar ul li a:hover{
+    color: aqua;
+}
+
+
+/* Section-mid */
+
+
+.mid{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midL{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1{
+    /* text-decoration-line: none; */
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 20px;
+    width: 120px;
+    transition: all 0.7s ease-out;
+}
+
+
+.btn1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn1:hover{
+    height: 40px;
+    width: 200px;
+    font-size: 1.5rem;
+}
+
+.btn2{
+    /* text-decoration-line: none; */
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 20px;
+    width: 120px;
+    margin-left: 20px;
+    transition: all 0.7s ease-out;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn2:hover{
+    height: 40px;
+    width: 200px;
+    font-size: 1.5rem;
+}
+
+.btn3{
+    /* text-decoration-line: none; */
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 20px;
+    width: 120px;
+    margin-left: 20px;
+    transition: all 0.7s ease-out;
+}
+
+.btn3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn3:hover{
+    height: 40px;
+    width: 200px;
+    font-size: 1.5rem;
+}
+
+
+
+/* Lower Part of page  */
+
+
+/* Image Sizeing  */
+
+#book{
+    width: 181px;
+    height: 127px;
+}
+
+#dl{
+    width: 186px;
+    height: 133px;
+}
+
+#el{
+    width: 180px;
+    height: 128px;
+}
+
+
+/* making flexbox */
+
+.low1{
+    display: flex;
+    margin: 100px;
+    border: 3px solid black;
+    padding: 22px;
+    border-radius: 20px;
+    transition: all 1s ease-in;
+}
+
+.low1:hover{
+    border: 10px solid greenyellow;
+    background-color: black;
+    color: rgb(61, 206, 182);
+}
+
+
+.low2{
+    display: flex;
+    margin: 100px;
+    flex-direction: row-reverse;
+    border: 3px solid black;
+    padding: 22px;
+    border-radius: 20px;
+    transition: all 1s ease-in;
+}
+
+.low2:hover{
+    border: 10px solid greenyellow;
+    background-color: black;
+    color: rgb(61, 206, 182);
+}
+
+
+
+.low3{
+    display: flex;
+    margin: 100px;
+    border: 3px solid black;
+    padding: 22px;
+    border-radius: 20px;
+    transition: all 1s ease-in;
+}
+
+.low3:hover{
+    border: 10px solid greenyellow;
+    background-color: black;
+    color: rgb(61, 206, 182);
+}
+
+
+.low1img{
+    margin-left: 15px;
+}
+
+.low2img{
+    margin-right: 15px;
+}
+
+.low3img{
+    margin-left: 15px;
+}
+
+
+
+/* footer  */
+
+
+.foot{
+    display: flex;
+    background-color: black;
+    color: #a6e8b4;
+    /* text-align: center;                      agar flexbox ho to text aling center command is ded  */
+    width: 100vw;
+    height: 7vh;
+    margin-top: -52px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* 
+
+@media screen and (max-width: 638px){
+    body{
+        background-color: red;
+    }
+} */
+

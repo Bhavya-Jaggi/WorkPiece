@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.dabba{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+h1{
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    margin: 20px auto;
+    border: 2px solid black;
+    width: 103px;
+    height: 31px;
+    font-size: 1.0112rem;
+    background-color: tomato;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.info{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: yellowgreen;
+    background-color: black;
+    width: 307px;
+    /* margin: 15px; */
+}
+
+
+
+.conatainer{
+    /* margin-top: 200px; */
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2rem;
+}
